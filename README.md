@@ -10,7 +10,7 @@ To run the scripts in this repository, you'll need R installed on your system. Y
 
 ```R
 install.packages(c("data.table", "dplyr", "tidyr", "ggplot2", "stringr", "car", "lubridate", "emmeans", "semTools", "gridExtra", "scales", "grid", "MASS", "boot"))
-
+```
 
 ## Data
 The analysis is based on a comprehensive dataset detailing ICU and ED encounters, code status, and ventilator use across seven hospitals from March 2019 to December 2022. Note: The dataset used in this study is not publicly shareable due to privacy concerns.
