@@ -16,7 +16,7 @@ install.packages(c("data.table", "dplyr", "tidyr", "ggplot2", "stringr", "car", 
 The analysis is based on a comprehensive dataset detailing ICU and ED encounters, code status, and ventilator use across seven hospitals from March 2019 to December 2022. Note: The dataset used in this study is not publicly shareable due to privacy concerns.
 
 ## Usage
-To use the script, set the `pathread` and `pathwrite` variables to the appropriate file paths where your dataset is located and where you want the output to be saved, respectively. The main script, `GitCleaned__ProjectCodeStatus__V01.R`, can then be run in any standard R environment.
+To use the script, set the `pathread` and `pathwrite` variables to the appropriate file paths where your dataset is located and where you want the output to be saved, respectively. The main script, `ProjectCodeStatus.R`, can then be run in any standard R environment.
 
 ## Function Descriptions
 The script includes several custom functions for data analysis and visualization. For example, `train_sec` is used for creating secondary axis transforms in data visualizations.
